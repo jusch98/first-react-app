@@ -1,0 +1,56 @@
+.language-selector {
+  padding-top: 12px;
+  
+    position: relative;
+    display: inline-block;
+  }
+  
+  .language-button {
+    padding: 6px;
+    color: rgb(32, 32, 32);
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 4px;
+    font-family: monospace;
+  }
+  /* Efecto hover para el botón de búsqueda */
+  .language-button:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Aumenta la sombra para dar más relieve */
+}
+
+/* Efecto del relieve en el icono de búsqueda */
+.language-button:hover img {
+  transform: scale(1.1);           /* El icono crece un poco al pasar el mouse */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); /* Sombra para crear el efecto de relieve */
+}
+
+  
+  .dropdown-menu {
+    padding: 12px;
+    position: absolute;
+    top: 0; /* Alinea el menú al mismo nivel vertical que el botón */
+    left: 100%; /* Despliega el menú hacia la derecha del botón */
+    min-width: 160px;
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina el padding por defecto del <ul> */
+    margin: 0; /* Elimina el margen por defecto del <ul> */
+}
+
+.dropdown-item {
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}

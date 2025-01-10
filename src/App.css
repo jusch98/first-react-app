@@ -1,0 +1,145 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 50px;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+
+/* Dando estilo al header */
+.banner {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  
+  
+  font-family: inherit;
+
+}
+#Busqueda{
+  width: auto;
+  border: none;
+  background-color: white;
+  
+}
+
+.navbar {
+  
+  background-color: #ffffff;
+  justify-content: flex;
+  align-items: center;
+  font-family:monospace;
+  
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  padding-bottom: .625rem;
+  border-bottom: 4px double black;
+}
+
+.navbar a {
+  font-size: medium;
+  color: black;
+  text-decoration: none;
+  
+}
+.DialogDisplay {
+  width: 20PX;
+}
+/* Boton de busqueda */
+.search-dialog{
+border: none;
+}
+.close-btn{
+  background-color: rgb(133, 11, 11);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+/* Dando estilo al Home page */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 0.5rem 0;
+}
+
+.card a {
+  color: rgb(0, 72, 180);
+  text-decoration: none;
+}
+
+/* Dando estilo a la Categoria */
+h1 {
+  text-align: center;
+  margin: 1rem 0;
+  font-family: none;
+}
+
+/* Dando estilo al articulo por id */
+.article-container {
+  padding: 1rem;
+}
+
+.article-container img {
+  width: 75%;
+  height: auto;
+  margin: 1rem 0;
+  padding-left: 15%;
+}
+.article-container .body {
+  width: 75%;
+  text-align: justify;
+  margin: 1rem 0;
+  padding-left: 15%;
+}
+
+.related-articles {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.abstract {
+  text-align: left;
+}
+
+.related-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.related-card h4 {
+  margin: 0.5rem 0;
+}
+
+.related-card a {
+  color: rgb(0, 72, 180);
+  text-decoration: none;
+}
